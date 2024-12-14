@@ -1,0 +1,73 @@
+[
+    {
+        "nodeId": "node1",
+        "label": "Node 1",
+        "content": "Content node 1",
+        "relation": "",
+        "exercises": [
+            {
+                "questionId": "question1.1",
+                "question": "Test Question 1",
+                "options": {
+                    "A": "Node 1 Choice A",
+                    "C": "Node 2 Choice C"
+                },
+                "answer": "A"
+            }
+        ]
+    },
+    {
+        "nodeId": "node2",
+        "label": "Node 2",
+        "content": "Content node 2",
+        "relation": "Son",
+        "fatherId": "node1",
+        "exercises": [
+            {
+                "questionId": "question2.1",
+                "question": "Test Question 2",
+                "options": {
+                    "A": "Node 2 Choice A",
+                    "B": "Node 2 Choice B"
+                },
+                "answer": "A"
+            }
+        ]
+    },
+    {
+        "nodeId": "node3",
+        "label": "Node 3",
+        "content": "Content node 3",
+        "relation": "Sonson",
+        "fatherId": "node2",
+        "exercises": [
+            {
+                "questionId": "question3.1",
+                "question": "Test Question 3",
+                "options": {
+                    "A": "Node 3 Choice A",
+                    "D": "Node 3 Choice D"
+                },
+                "answer": "A"
+            }
+        ]
+    },
+    {
+        "nodeId": "node4",
+        "label": "Node 4",
+        "content": "Content node 4",
+        "relation": "Sonsonson",
+        "fatherId": "node2",
+        "exercises": [
+            {
+                "questionId": "question4.1",
+                "question": "Test Question 4",
+                "options": {
+                    "A": "Node 4 Choice A",
+                    "B": "Node 4 Choice B"
+                },
+                "answer": "A"
+            }
+        ]
+    }
+]
